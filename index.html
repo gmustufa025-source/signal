@@ -1,1 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Traffic Signal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<div class="card">
+  <h2>🚦 Traffic Signal</h2>
+
+  <div class="signal">
+    <div id="red" class="light"></div>
+    <div id="yellow" class="light"></div>
+    <div id="green" class="light"></div>
+  </div>
+
+  <input type="text" id="colorInput" placeholder="Enter color (red/yellow/green)">
+  <button onclick="checkSignal()">Check</button>
+
+  <p id="message"></p>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
